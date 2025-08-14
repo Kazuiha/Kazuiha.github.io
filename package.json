@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-llms": "^2.0.0-rc.112",
     "http-server": "^14.1.1",
     "typescript": "^5.9.2",
     "vue": "^3.5.18",
@@ -24,6 +25,7 @@
     "vuepress-theme-plume": "1.0.0-rc.160"
   },
   "dependencies": {
+    "@simonwep/pickr": "^1.9.1",
     "@vuepress/shiki-twoslash": "^2.0.0-rc.112",
     "artplayer": "^5.2.5",
     "chart.js": "^4.5.0",
@@ -33,6 +35,7 @@
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
     "mermaid": "^11.9.0",
-    "pyodide": "^0.28.1"
+    "pyodide": "^0.28.1",
+    "swiper": "^11.2.10"
   }
 }
