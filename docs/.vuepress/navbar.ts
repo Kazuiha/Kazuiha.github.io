@@ -35,11 +35,11 @@ export const zhNavbar: ThemeNavItem[] = defineNavbarConfig([
       { text: '主题工具', link: '/tools/', icon: 'jam:tools' },
       { text: '友情链接', link: '/friends/', icon: 'carbon:friendship' },
       {
-        text: 'Vuepress',
-        icon: 'logos:vue',
+        text: 'Cloudflare',
+        icon: 'logos:cloudflare',
         items: [
-          { text: '官方文档', link: 'https://v2.vuepress.vuejs.org', icon: 'logos:vue' },
-          { text: '生态系统', link: 'https://ecosystem.vuejs.press/', icon: 'logos:vue' },
+          { text: '官方文档', link: 'https://v2.vuepress.vuejs.org', icon: 'logos:cloudflare' },
+          { text: '生态系统', link: 'https://ecosystem.vuejs.press/', icon: 'logos:cloudflare' },
         ],
       },
     ],
