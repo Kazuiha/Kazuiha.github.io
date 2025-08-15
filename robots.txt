@@ -1,0 +1,3 @@
+Sitemap: https://kazuiha.github.io/sitemap.xml
+User-agent:*
+Disallow:
