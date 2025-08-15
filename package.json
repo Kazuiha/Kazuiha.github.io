@@ -1,7 +1,7 @@
 {
   "name": "kazuiha",
   "type": "module",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
   "author": "only9464 <sky9464@qq.com>",
   "license": "MIT",
@@ -29,12 +29,15 @@
     "@vuepress/shiki-twoslash": "^2.0.0-rc.112",
     "artplayer": "^5.2.5",
     "chart.js": "^4.5.0",
+    "dashjs": "^5.0.3",
     "echarts": "^5.6.0",
     "flowchart.ts": "^3.0.1",
+    "hls.js": "^1.6.10",
     "markmap-lib": "^0.18.12",
     "markmap-toolbar": "^0.18.12",
     "markmap-view": "^0.18.12",
     "mermaid": "^11.9.0",
+    "mpegts.js": "^1.8.0",
     "pyodide": "^0.28.1",
     "swiper": "^11.2.10"
   }

@@ -3,7 +3,7 @@ import { defineNotesConfig } from 'vuepress-theme-plume'
 import { plugins } from './plugins'
 import { themeConfig } from './theme-config'
 import { themeGuide } from './theme-guide'
-import { tools } from './tools'
+// import { tools } from './tools'
 
 export const zhNotes: ThemeNoteListOptions = defineNotesConfig({
   dir: 'notes',
@@ -12,6 +12,6 @@ export const zhNotes: ThemeNoteListOptions = defineNotesConfig({
     themeGuide,
     themeConfig,
     plugins,
-    tools,
+    // tools,
   ],
 })
