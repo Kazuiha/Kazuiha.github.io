@@ -38,8 +38,19 @@ export const zhNavbar: ThemeNavItem[] = defineNavbarConfig([
         text: 'Cloudflare',
         icon: 'logos:cloudflare',
         items: [
-          { text: '官方文档', link: 'https://v2.vuepress.vuejs.org', icon: 'logos:cloudflare' },
-          { text: '生态系统', link: 'https://ecosystem.vuejs.press/', icon: 'logos:cloudflare' },
+          { text: 'Workers', link: 'https://developers.cloudflare.com/workers/', icon: 'logos:cloudflare' },
+          { text: 'D1', link: 'https://developers.cloudflare.com/d1/', icon: 'logos:cloudflare' },
+          { text: 'KV', link: 'https://developers.cloudflare.com/kv/', icon: 'logos:cloudflare' },
+          { text: 'Pages', link: 'https://developers.cloudflare.com/pages/', icon: 'logos:cloudflare' },
+          { text: 'Wrangler', link: 'https://developers.cloudflare.com/workers/wrangler/', icon: 'logos:cloudflare' },
+        ],
+      },
+      {
+        text: 'Hono',
+        icon: 'logos:hono',
+        items: [
+          { text: '中文文档', link: 'https://honodev.pages.dev/zh/', icon: 'logos:hono' },
+          { text: 'Document', link: 'https://hono.dev/', icon: 'logos:hono' },
         ],
       },
     ],

@@ -5,26 +5,22 @@ import { enNavbar, zhNavbar } from './navbar.js'
 import { enNotes, zhNotes } from './notes/index.js'
 
 export default defineThemeConfig({
-  logo: '/plume.png',
+  logo: '/Kazuiha.jpg',
 
   profile: {
-    avatar: '/plume.png',
-    name: 'Plume Theme',
-    description: 'The Theme for Vuepress 2.0',
-    location: 'GuangZhou, China',
-    organization: 'pengzhanbo',
+    avatar: '/Kazuiha.jpg',
+    name: 'Kazuiha',
+    description: 'Kazuiha',
+    location: 'Beijing, China',
+    organization: 'Kazuiha',
   },
 
   social: [
-    { icon: 'github', link: 'https://github.com/pengzhanbo/vuepress-theme-plume' },
-    { icon: 'qq', link: 'https://qm.qq.com/q/FbPPoOIscE' },
+    { icon: 'github', link: 'https://github.com/Kazuiha/Kazuiha' },
   ],
-  navbarSocialInclude: ['github', 'qq'],
+  navbarSocialInclude: ['github'],
 
-  footer: {
-    copyright: 'Copyright © 2021-present pengzhanbo',
-  },
-
+  footer: false,
   locales: {
     '/': {
       notes: zhNotes,

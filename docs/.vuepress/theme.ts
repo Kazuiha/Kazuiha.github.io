@@ -3,11 +3,15 @@ import process from 'node:process'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export const theme: Theme = plumeTheme({
-  hostname: process.env.SITE_HOST || 'https://theme-plume.vuejs.press',
+  hostname: process.env.SITE_HOST || 'https://kazuiha.github.io',
 
-  docsRepo: 'https://github.com/pengzhanbo/vuepress-theme-plume',
+  docsRepo: 'https://github.com/Kazuiha/Kazuiha.github.io',
   docsDir: 'docs',
   changelog: { maxCount: 10 },
+    plugins: {
+      // 如果您在此处直接声明为 true，则表示开发环境和生产环境都启用该功能
+      git: process.env.NODE_ENV === 'production'
+    },
   contributors: { mode: 'block' },
 
   search: { provider: 'local' },
@@ -72,7 +76,7 @@ export const theme: Theme = plumeTheme({
   watermark: {
     enabled: false,
     watermarkOptions: {
-      content: 'vuepress-theme-plume',
+      content: 'Kazuiha',
     },
   },
 })

@@ -321,7 +321,7 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 这将为图片添加 一个 名为 `full-width` 的 class 属性，以及一个 `width` 属性，值为 `100%`。
 
 ```md
-![](/plume.png){.full-width width="100%"}
+![](/Kazuiha.jpg){.full-width width="100%"}
 ```
 
 同时也支持其他属性:

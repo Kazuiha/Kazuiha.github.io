@@ -305,7 +305,7 @@ config:
       name: Theme Plume
       text: VuePress Next Theme
       tagline: 一个简约易用的，功能丰富的 vuepress 文档&博客 主题
-      image: /plume.png
+      image: /Kazuiha.jpg
       actions:
         -
           theme: brand

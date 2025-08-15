@@ -14,7 +14,7 @@ docs:
   -
     name: VuePress Plume
     desc: 一个简约的，功能丰富的 vuepress 文档&博客 主题。
-    logo: /plume.png
+    logo: /Kazuiha.jpg
     url: https://theme-plume.vuejs.press
     repo: https://github.com/pengzhanbo/vuepress-theme-plume
     preview: /images/demos/plume.jpg

@@ -9,8 +9,8 @@ export const plugins: ThemeNote = defineNoteConfig({
       text: '插件',
       link: '/plugins/',
       items: [
-        // 'caniuse',
-        // 'iconify',
+        'caniuse',
+        'iconify',
         'shiki',
         'md-power',
         'content-updated',

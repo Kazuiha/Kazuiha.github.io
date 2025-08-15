@@ -320,7 +320,7 @@ You can use special syntax to add attributes to Markdown elements.
 This adds a class attribute named `full-width` and a `width` attribute with the value `100%` to the image.
 
 ```md
-![](/plume.png){.full-width width="100%"}
+![](/Kazuiha.jpg){.full-width width="100%"}
 ```
 
 Other attributes are also supported:
